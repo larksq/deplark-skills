@@ -4,6 +4,8 @@
 
 [开始使用](https://deplark.com/?lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [English](README.md) · [查看 Skill 文件](skills/deplark/SKILL.md)
 
+[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [下载 v1.0.0](https://github.com/larksq/deplark-skills/releases/tag/v1.0.0)
+
 ## 安装
 
 需要 Node.js 24 或更新版本、Deplark 账号，以及 Codex 或 Claude Code。浏览器连接账号和持久凭据保存目前需要 macOS；其他系统使用已有账号 Key 通过 `DEPLARK_API_KEY` 注入。不要把 Key 放进聊天、源码或命令参数。

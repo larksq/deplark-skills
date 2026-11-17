@@ -6,6 +6,8 @@
 
 [Get started](https://deplark.com/?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [中文说明](README.zh-CN.md) · [Read the Skill](skills/deplark/SKILL.md)
 
+[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [Download v1.0.0](https://github.com/larksq/deplark-skills/releases/tag/v1.0.0)
+
 ## Install
 
 Requires Node.js 24 or newer and a Deplark account. Browser account connection and persistent credential storage currently require macOS. On other systems, use an existing account Key through `DEPLARK_API_KEY`; do not put it in chat, source code, or command arguments.
