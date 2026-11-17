@@ -54,6 +54,8 @@ If `connect` reuses an existing connection, no browser approval or resume is nee
 
 The package has no account Key, project ID, personal account information, or site binding. Each user connects their own account. On macOS, account credentials are stored separately in Keychain. A deployment uses a one-project, one-deployment ticket valid for one hour. The uploader is downloaded from Deplark and its SHA-256 digest is checked before execution.
 
+The agent needs a local shell to run Node.js and the project's build commands, file access to inspect the selected project and write its build output and local binding, and HTTPS access to `deplark.com` for authorization and deployment. The client uses macOS `/usr/bin/security` to read and write Deplark-specific Keychain items under `com.deplark.account-skills` or the compatible `com.deplark.skills` service. Keychain item names are derived from the service origin, authorization scope, and selected AI tool. These requirements describe the client's behavior; your agent's own tool permissions and your Deplark account consent remain separate.
+
 Local project selection is saved in `.deplark/project.json` without credentials. The Skill does not grant billing, administrator, secret-management, or deletion access. Removing the local Skill does not delete a deployed site or revoke cloud authorization; manage authorization separately in Deplark.
 
 ## Service and support

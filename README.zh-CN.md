@@ -28,6 +28,8 @@ Skill 支持账号连接、列出自己的项目、新建或绑定项目，以�
 
 已有连接可直接复用。首次连接返回浏览器授权地址，核对账号和跨项目权限后确认，再让 AI 继续。凭据与 Skill 文件分离；Mac 使用 Keychain 保存。每次发布使用单项目、单次部署、一小时有效的票据。
 
+所需本机能力包括运行 Node.js 和项目构建命令、读取选定项目、写入构建产物与本地绑定，以及通过 HTTPS 连接 `deplark.com`。客户端通过 Mac 的 `/usr/bin/security` 读写 Deplark 专用 Keychain 条目，服务名为 `com.deplark.account-skills` 或兼容的 `com.deplark.skills`；条目标识由服务域名、授权范围与 AI 工具计算。AI 工具本身的调用权限和速栈账号授权仍分别受其各自规则控制。
+
 安装器使用 `--agent claude-code`；Skill 内客户端使用 `--agent claude`。Codex 的个人目录为 `~/.agents/skills/deplark/`，Claude Code 为 `~/.claude/skills/deplark/`。
 
 ## 公开包与服务
