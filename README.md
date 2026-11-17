@@ -1,12 +1,12 @@
 <p align="center"><img src="assets/deplark-logo.svg" alt="Deplark" width="220"></p>
 
-# Deploy from your AI coding agent
+# Quickly deploy websites for fast access from mainland China
 
-**Deplark / 速栈 turns a local website or Node.js app into a live site from Codex or Claude Code.** Install one deployment Skill, connect your own Deplark account, and reuse it across projects.
+**Deplark / 速栈 quickly turns a local website or Node.js app into a live site with fast access from mainland China, using Codex or Claude Code.** Install one deployment Skill, connect your own Deplark account, and reuse it across projects.
 
 [Get started](https://deplark.com/?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [中文说明](README.zh-CN.md) · [Read the Skill](skills/deplark/SKILL.md)
 
-[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [Download v1.0.0](https://github.com/larksq/deplark-skills/releases/tag/v1.0.0)
+[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [ClawHub](https://clawhub.ai/larksq/skills/deplark) · [Download v1.0.1](https://github.com/larksq/deplark-skills/releases/tag/v1.0.1)
 
 ## Install
 
@@ -22,11 +22,13 @@ npx skills add larksq/deplark-skills --skill deplark --agent claude-code --globa
 
 You can also [open the guided installer](https://deplark.com/app?view=account-skill&lang=en&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) to review the files, connect your account, and verify the installation. Installing the files does not grant account access or publish a project.
 
+The web wizard verifies the exact package generated for its setup session. Use that session's generated files for its verification flow; the marketplace release can have different introductory wording.
+
 ## Try it
 
 Open the code directory in your AI tool and ask:
 
-> Use the Deplark Skill to publish this project. First check my account connection and let me choose a new or existing Deplark project. Build the app, deploy the output, and verify the live URL.
+> Use the Deplark Skill to quickly publish this project for fast access from mainland China. First check my account connection and let me choose a new or existing Deplark project. Build the app, deploy the output, and verify the live URL.
 
 The Skill guides the agent through account connection, project selection, building, deployment, and checking the returned site. Static builds need an `index.html` at the output root. Node.js builds need the configured server entry, bundled runtime dependencies, and a listener on `0.0.0.0` using the supplied `PORT`.
 

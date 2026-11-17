@@ -1,10 +1,10 @@
-# Deplark / 速栈部署 Skill
+# Deplark / 速栈 · 快速部署站点，中国大陆高速访问
 
-**在 Codex 或 Claude Code 中，把本地网站或 Node.js 应用发布为可访问的站点。** 安装一次，连接自己的速栈账号，即可在多个项目中复用。
+**在 Codex 或 Claude Code 中快速部署网站和 Node.js 应用，让中国大陆用户高速访问。** 安装一次，连接自己的速栈账号，即可在多个项目中复用。
 
 [开始使用](https://deplark.com/?lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [English](README.md) · [查看 Skill 文件](skills/deplark/SKILL.md)
 
-[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [下载 v1.0.0](https://github.com/larksq/deplark-skills/releases/tag/v1.0.0)
+[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [ClawHub 收录页](https://clawhub.ai/larksq/skills/deplark) · [下载 v1.0.1](https://github.com/larksq/deplark-skills/releases/tag/v1.0.1)
 
 ## 安装
 
@@ -20,9 +20,11 @@ npx skills add larksq/deplark-skills --skill deplark --agent claude-code --globa
 
 也可使用[速栈安装向导](https://deplark.com/app?view=account-skill&lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution)，查看完整文件、连接账号并检查实际安装。下载或安装文件不等于账号授权，也不会自动发布项目。
 
+网页向导核验的是该次设置会话生成的完整文件；完成网页核验时使用该会话提供的包。市场发行版的介绍文案可能与向导版本不同。
+
 ## 对 AI 说
 
-> 使用 Deplark Skill 发布当前项目。先检查账号连接，让我选择新建项目或已有项目，再完成构建、部署，并打开实际网址确认结果。
+> 使用 Deplark Skill 快速部署当前站点，让中国大陆用户高速访问。先检查账号连接，让我选择新建项目或已有项目，再完成构建、部署，并打开实际网址确认结果。
 
 Skill 支持账号连接、列出自己的项目、新建或绑定项目，以及部署静态构建产物或符合运行要求的 Node.js 应用。静态产物根目录须有 `index.html`；Node.js 产物须包含配置的入口和运行依赖，并使用注入的 `PORT` 监听 `0.0.0.0`。
 
