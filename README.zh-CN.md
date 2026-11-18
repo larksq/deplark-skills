@@ -4,9 +4,9 @@
 
 [开始使用](https://deplark.com/?lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [English](README.md) · [查看 Skill 文件](skills/deplark/SKILL.md)
 
-[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [ClawHub 收录页](https://clawhub.ai/larksq/skills/deplark) · [下载 v1.0.2](https://github.com/larksq/deplark-skills/releases/tag/v1.0.2)
+[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [ClawHub 收录页](https://clawhub.ai/larksq/skills/deplark) · [下载 v1.0.3](https://github.com/larksq/deplark-skills/releases/tag/v1.0.3)
 
-## 安装
+## 通过 skills.sh 安装
 
 需要 Node.js 24 或更新版本、Deplark 账号，以及 Codex 或 Claude Code。浏览器连接账号和持久凭据保存目前需要 macOS；其他系统使用已有账号 Key 通过 `DEPLARK_API_KEY` 注入。不要把 Key 放进聊天、源码或命令参数。
 
@@ -42,8 +42,17 @@ Skill 支持账号连接、列出自己的项目、新建或绑定项目，以�
 
 遇到安装问题可[提交 Issue](https://github.com/larksq/deplark-skills/issues)，仅附错误码、系统版本及脱敏信息。此仓库提供 Agent Skill 和本地客户端，尚无 MCP 服务端点。
 
-## 从 Skill 市场开始
+## 渠道分发包
 
-请按实际发现渠道进入：[ClawHub](https://deplark.com/app?utm_source=clawhub&utm_medium=skill&utm_campaign=skill_distribution)、[skills.sh](https://deplark.com/app?utm_source=skills-sh&utm_medium=skill&utm_campaign=skill_distribution)、[agentskill.sh](https://deplark.com/app?utm_source=agentskill&utm_medium=skill&utm_campaign=skill_distribution) 或 [GitHub](https://deplark.com/app?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution)。
+各版本内置来源标记，首次浏览器连接自动携带，不需要用户选择渠道或填写参数。
 
-速栈保留首次已识别来源 30 天，仅在创建新账号时记录；重复登录不计为新增注册。无法可靠识别来源的通用安装包会保留为未知渠道。
+| 分发渠道 | 包内来源 | 安装入口 |
+| --- | --- | --- |
+| skills.sh | `skills-sh` | 上面的 `npx skills add` 命令 |
+| agentskill.sh | `agentskill` | [市场页面](https://agentskill.sh/@larksq/deplark)，使用[专用发布源](https://github.com/larksq/deplark-agentskill) |
+| ClawHub | `clawhub` | [ClawHub 分发包](https://clawhub.ai/larksq/skills/deplark) |
+| GitHub ZIP | `github` | [Release ZIP](https://github.com/larksq/deplark-skills/releases/tag/v1.0.3) |
+
+仓库中的 `skills/deplark` 是 skills.sh 版，Release ZIP 是 GitHub 版。这里识别用户实际选择的分发渠道，不推测最早在哪里听说产品。本 GitHub README 的网站直达入口仍标记 `github`。
+
+浏览器首次已识别来源保留 30 天，创建新账号后固定保存。更早的带标记网站访问优先于后来的安装包连接，重复登录不计新增。旧版无标记包不能追溯历史来源。

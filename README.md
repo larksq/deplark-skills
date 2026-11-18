@@ -6,9 +6,9 @@
 
 [Get started](https://deplark.com/?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [中文说明](README.zh-CN.md) · [Read the Skill](skills/deplark/SKILL.md)
 
-[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [ClawHub](https://clawhub.ai/larksq/skills/deplark) · [Download v1.0.2](https://github.com/larksq/deplark-skills/releases/tag/v1.0.2)
+[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [ClawHub](https://clawhub.ai/larksq/skills/deplark) · [Download v1.0.3](https://github.com/larksq/deplark-skills/releases/tag/v1.0.3)
 
-## Install
+## Install via skills.sh
 
 Requires Node.js 24 or newer and a Deplark account. Browser account connection and persistent credential storage currently require macOS. On other systems, use an existing account Key through `DEPLARK_API_KEY`; do not put it in chat, source code, or command arguments.
 
@@ -68,8 +68,17 @@ For installation issues, [open an issue](https://github.com/larksq/deplark-skill
 
 This repository distributes an Agent Skill with a local client. It does not provide an MCP server endpoint.
 
-## Start from a marketplace
+## Distribution editions
 
-Use the link for the market you came from: [ClawHub](https://deplark.com/app?utm_source=clawhub&utm_medium=skill&utm_campaign=skill_distribution), [skills.sh](https://deplark.com/app?utm_source=skills-sh&utm_medium=skill&utm_campaign=skill_distribution), [agentskill.sh](https://deplark.com/app?utm_source=agentskill&utm_medium=skill&utm_campaign=skill_distribution), or [GitHub](https://deplark.com/app?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution).
+Each edition carries its own registration source automatically; users do not need a source flag.
 
-Deplark remembers the first identified source for 30 days and records it only when a new account is created. It does not count repeat sign-ins as new users. Shared packages without a reliable market label remain unattributed.
+| Distribution | Package source | Installation |
+| --- | --- | --- |
+| skills.sh | `skills-sh` | The `npx skills add` commands above |
+| agentskill.sh | `agentskill` | [Market listing](https://agentskill.sh/@larksq/deplark), from the [dedicated source](https://github.com/larksq/deplark-agentskill) |
+| ClawHub | `clawhub` | [ClawHub package](https://clawhub.ai/larksq/skills/deplark) |
+| GitHub ZIP | `github` | [Release ZIP](https://github.com/larksq/deplark-skills/releases/tag/v1.0.3) |
+
+The repository's `skills/deplark` folder is the skills.sh edition; the release ZIP is the GitHub edition. This distinguishes the selected distribution from where a user may first have heard about Deplark. Direct website links in this GitHub README are tagged `github`.
+
+Deplark retains the first identified website source for 30 days and records it once when a new account is created. An earlier tagged website visit takes precedence over a later package connection. Repeat sign-ins are not new users; old unlabelled packages cannot be retroactively attributed.
