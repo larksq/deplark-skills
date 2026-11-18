@@ -4,7 +4,7 @@
 
 [开始使用](https://deplark.com/?lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [English](README.md) · [查看 Skill 文件](skills/deplark/SKILL.md)
 
-[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [ClawHub 收录页](https://clawhub.ai/larksq/skills/deplark) · [下载 v1.0.1](https://github.com/larksq/deplark-skills/releases/tag/v1.0.1)
+[skills.sh 收录页](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh 收录页](https://agentskill.sh/@larksq/deplark) · [ClawHub 收录页](https://clawhub.ai/larksq/skills/deplark) · [下载 v1.0.2](https://github.com/larksq/deplark-skills/releases/tag/v1.0.2)
 
 ## 安装
 
@@ -41,3 +41,9 @@ Skill 支持账号连接、列出自己的项目、新建或绑定项目，以�
 本 Skill 免费安装，按 MIT 许可证分发。托管套餐、运行类型和用量费用以[速栈当前说明](https://deplark.com/?lang=zh&utm_source=github&utm_medium=skill&utm_campaign=skill_distribution)为准。它不授予账单、管理员、密钥管理或删除权限。卸载本地 Skill 不会删除站点；云端账号授权需单独撤销。
 
 遇到安装问题可[提交 Issue](https://github.com/larksq/deplark-skills/issues)，仅附错误码、系统版本及脱敏信息。此仓库提供 Agent Skill 和本地客户端，尚无 MCP 服务端点。
+
+## 从 Skill 市场开始
+
+请按实际发现渠道进入：[ClawHub](https://deplark.com/app?utm_source=clawhub&utm_medium=skill&utm_campaign=skill_distribution)、[skills.sh](https://deplark.com/app?utm_source=skills-sh&utm_medium=skill&utm_campaign=skill_distribution)、[agentskill.sh](https://deplark.com/app?utm_source=agentskill&utm_medium=skill&utm_campaign=skill_distribution) 或 [GitHub](https://deplark.com/app?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution)。
+
+速栈保留首次已识别来源 30 天，仅在创建新账号时记录；重复登录不计为新增注册。无法可靠识别来源的通用安装包会保留为未知渠道。

@@ -6,7 +6,7 @@
 
 [Get started](https://deplark.com/?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution) · [中文说明](README.zh-CN.md) · [Read the Skill](skills/deplark/SKILL.md)
 
-[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [ClawHub](https://clawhub.ai/larksq/skills/deplark) · [Download v1.0.1](https://github.com/larksq/deplark-skills/releases/tag/v1.0.1)
+[skills.sh](https://www.skills.sh/larksq/deplark-skills/deplark) · [agentskill.sh](https://agentskill.sh/@larksq/deplark) · [ClawHub](https://clawhub.ai/larksq/skills/deplark) · [Download v1.0.2](https://github.com/larksq/deplark-skills/releases/tag/v1.0.2)
 
 ## Install
 
@@ -67,3 +67,9 @@ The Skill package is free to install under the MIT license. Deplark hosting plan
 For installation issues, [open an issue](https://github.com/larksq/deplark-skills/issues). Include the error code and your operating system; keep tokens, account data, source archives, and private URLs out of public reports.
 
 This repository distributes an Agent Skill with a local client. It does not provide an MCP server endpoint.
+
+## Start from a marketplace
+
+Use the link for the market you came from: [ClawHub](https://deplark.com/app?utm_source=clawhub&utm_medium=skill&utm_campaign=skill_distribution), [skills.sh](https://deplark.com/app?utm_source=skills-sh&utm_medium=skill&utm_campaign=skill_distribution), [agentskill.sh](https://deplark.com/app?utm_source=agentskill&utm_medium=skill&utm_campaign=skill_distribution), or [GitHub](https://deplark.com/app?utm_source=github&utm_medium=skill&utm_campaign=skill_distribution).
+
+Deplark remembers the first identified source for 30 days and records it only when a new account is created. It does not count repeat sign-ins as new users. Shared packages without a reliable market label remain unattributed.
